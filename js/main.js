@@ -47,6 +47,47 @@ $(function(){
             $('nav ul li a').css({color:'rgba(255,255,255,0.3)',fontSize:15})
             $('nav ul li:eq(3) a').css({color:'#fff',fontSize:20})
         }
+
+        if(num>1500){
+            $('.chart_wrap .ps span').css({width:"90%"})
+        }else{
+            $('.chart_wrap .ps span').css({width:0})
+        }
+        if(num>1500){
+            $('.chart_wrap .ill span').css({width:"80%"})
+        }else{
+            $('.chart_wrap .ill span').css({width:0})
+        }
+        if(num>1500){
+            $('.chart_wrap .fi span').css({width:"99.3%"})
+        }else{
+            $('.chart_wrap .fi span').css({width:0})
+        }
+        if(num>1500){
+            $('.chart_wrap .m span').css({width:"90%"})
+        }else{
+            $('.chart_wrap .m span').css({width:0})
+        }
+        if(num>1500){
+            $('.chart_wrap .c span').css({width:"90%"})
+        }else{
+            $('.chart_wrap .c span').css({width:0})
+        }
+        if(num>1500){
+            $('.chart_wrap .js span').css({width:"60%"})
+        }else{
+            $('.chart_wrap .js span').css({width:0})
+        }
+        if(num>1500){
+            $('.chart_wrap .jq span').css({width:"80%"})
+        }else{
+            $('.chart_wrap .jq span').css({width:0})
+        }
+        if(num>1500){
+            $('.chart_wrap .vue span').css({width:"60%"})
+        }else{
+            $('.chart_wrap .vue span').css({width:0})
+        }
     })
     $('nav ul li:eq(0) a').click(function(){
         $('html,body').animate({scrollTop:0},1000)
